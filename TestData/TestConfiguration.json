@@ -1,0 +1,20 @@
+{
+  "TestData": {
+    "HomePage": {
+      "Url": "https://www.matchingengine.com/",
+      "ExpectedTitle": "Matching Engine by Spanish Point Technologies Ltd."
+    },
+    "RepertoireManagementModule": {
+      "ExpectedTitle": "Repertoire Management Module – Matching Engine by Spanish Point Technologies Ltd."
+    },
+    "ProductSupportSection": {
+      "ExpectedHeading": "There are several types of Product Supported:",
+      "ExpectedItems": [
+        "Cue Sheet / AV Work",
+        "Recording",
+        "Bundle",
+        "Advertisement"
+      ]
+    }
+  }
+}
