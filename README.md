@@ -9,7 +9,7 @@ The project uses the following NuGet packages:
 - **Selenium.WebDriver (v4.35.0)** - Core Selenium functionality for browser automation
 - **Selenium.WebDriver.ChromeDriver (v140.0.7339.18500)** - Chrome-specific driver for running tests in Chrome browser
 - **NUnit** - Unit testing framework for .NET
-- **NUnit3TestAdapter** - Test adapter for running NUnit tests in Visual Studio and dotnet CLI
+- **NUnit3TestAdapter** - Test adapter for running NUnit tests in Visual Studio and  dotnet CLI
 - **Microsoft.NET.Test.Sdk** - MSTest framework and test host for running tests
 
 ## Getting Started
@@ -54,7 +54,7 @@ Follow these steps to create and set up the Selenium project:
    dotnet run
    ```
 
-3. **Run tests (if you have test files):**
+3. **Run tests:**
    ```bash
    dotnet test
    ```
@@ -69,11 +69,7 @@ SeleniumSample/
 ├── Pages/                  # Page Object Model classes
 ├── TestData/               # Test data files
 ├── Tests/                  # NUnit test classes
-├── bin/                    # Compiled binaries
-└── obj/                    # Build artifacts
 ```
 
 ## Notes
 - The ChromeDriver version (140.0.7339.18500) should match your installed Chrome browser version
-- The `chrome-win64/` folder contains the Chrome browser binaries for testing
-- Test settings can be configured in `test.runsettings`
